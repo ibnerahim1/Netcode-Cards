@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4819297632120263668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4819297632120263669}
+  - component: {fileID: 4819297632120263670}
+  m_Layer: 0
+  m_Name: V_Player 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4819297632120263669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4819297632120263668}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4819297632120263670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4819297632120263668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad89c6d12970c449591daf30f903db78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A_SwipeDown: {fileID: 11400000, guid: 591bbe4ab36674b91b5bf499ba7ab9ca, type: 2}
+  A_SwipeUp: {fileID: 11400000, guid: c5f2a85deb4604ab79bbb5b702ff649a, type: 2}
+  A_Swap: {fileID: 11400000, guid: 3a0f6cf39cf6349d8825f844ed9cb9ce, type: 2}
+  cards: {fileID: 11400000, guid: dbb80b60a97a34d708fc42673d213cf3, type: 2}
+  cardVisualStyleSO: {fileID: 11400000, guid: 36ec3c009c30e734b94c8a394edc0d53, type: 2}
+  DistanceBetweenTheCardsX: 0.25
+  DistanceBetweenTheCardsZ: 0.02

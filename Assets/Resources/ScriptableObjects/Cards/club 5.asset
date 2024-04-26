@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c57266885aa273438873e40288e90c1, type: 3}
+  m_Name: club 5
+  m_EditorClassIdentifier: 
+  visualStylesHelper:
+  - _Key: {fileID: 11400000, guid: 36ec3c009c30e734b94c8a394edc0d53, type: 2}
+    _Value: {fileID: 2501755540830596595, guid: bfb39432a6987204ca0d20f6cbefec3d, type: 3}
+  - _Key: {fileID: 11400000, guid: d95b62f9f1385304b94cf740b74cd8fb, type: 2}
+    _Value: {fileID: 6514077350129713324, guid: 518fb80eba9ba42429f9b57d5d1d8a56, type: 3}
